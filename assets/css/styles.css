@@ -159,7 +159,7 @@ header nav li:last-child{
 	}
 
 	header h2{
-		margin-bottom: 15px;
+		display: none;
 	}
 }
 
@@ -242,6 +242,11 @@ header nav li:last-child{
 }
 
 
+@media (max-width: 600px){
+	.hero h1{
+		font-size: 36px;
+	}
+}
 
 /*--------------------
  	Our Work Section
